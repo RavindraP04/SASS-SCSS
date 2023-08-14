@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,900&display=swap");
+nav img {
+  padding-top: 33px;
+  padding-bottom: 20px;
+}
+nav ul li :hover {
+  text-decoration: underline;
+}
+
+.topSection div:nth-child(1) div:nth-child(1) {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 40px;
+}
+.topSection div:nth-child(1) div:nth-child(1) h1 {
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  margin-top: 70px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.topSection div:nth-child(1) div:nth-child(1) p {
+  font-family: "Nunito Sans";
+  width: 525px;
+  font-size: 18px;
+}
+.topSection div:nth-child(1) div:nth-child(1) button {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #1492e6;
+  font-family: "Nunito Sans";
+  font-size: 23px;
+  padding: 15px 50px;
+  margin-top: 45px;
+}
+.topSection div:nth-child(1) div:nth-child(1) button:hover {
+  background: #1486d2;
+}
+.topSection div:nth-child(1) div:nth-child(2) {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.topSection div:nth-child(2) h2 {
+  padding-top: 190px;
+  font-family: "Nunito Sans";
+  font-size: 35px;
+  padding-bottom: 60px;
+}
+.topSection div:nth-child(2) div div {
+  box-shadow: 0 7px 18px 0px rgba(0, 0, 0, 0.203);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 38px 14px 48px 19px;
+}
+.topSection div:nth-child(2) div div h3 {
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 700;
+}
+.topSection div:nth-child(2) div div p {
+  font-family: "Nunito Sans";
+  width: 253px;
+  margin: 0 auto;
+}
+.topSection div:nth-child(3) h2 {
+  padding-top: 190px;
+  font-family: "Nunito Sans";
+  font-size: 35px;
+  padding-bottom: 60px;
+}
+.topSection div:nth-child(3) div div {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.topSection div:nth-child(3) div div h3 {
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 700;
+}
+.topSection div:nth-child(3) div div p {
+  font-family: "Nunito Sans";
+  width: 300px;
+}
+
+.midSection {
+  padding: 0 100px;
+}
+.midSection div h2 {
+  padding-top: 130px;
+  font-family: "Nunito Sans";
+  font-size: 35px;
+  padding-bottom: 60px;
+}
+.midSection div div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.midSection div div .odd-card {
+  align-self: flex-start;
+}
+.midSection div div .odd-card p {
+  width: 645px;
+}
+.midSection div div .even-card {
+  align-self: flex-end;
+}
+.midSection div div .even-card p {
+  width: 471px;
+}
+.midSection div div div {
+  box-shadow: none;
+  padding: none;
+}
+.midSection div div div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.midSection div div div div h3 {
+  margin-top: 10px;
+  margin-left: 39px;
+  font-family: "Nunito Sans";
+  font-size: 24px;
+  font-weight: 700;
+}
+.midSection div div div p {
+  font-family: "Nunito Sans";
+  font-size: 21px;
+  margin-top: 14px;
+}
+.midSection div div div button {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #1492e6;
+  font-family: "Nunito Sans";
+  font-size: 23px;
+  padding: 15px 50px;
+  margin-bottom: 25px;
+}
+.midSection div div div button:hover {
+  background: #1486d2;
+}
+
+.bottomSection h2 {
+  padding-top: 190px;
+  font-family: "Nunito Sans";
+  font-size: 35px;
+}
+.bottomSection .roundedDiv {
+  box-shadow: 0 7px 18px 0px rgba(0, 0, 0, 0.203);
+  padding: 40px 40px 0 40px;
+  margin: 70px 90px 200px 90px;
+}
+.bottomSection .roundedDiv .CardsDiv {
+  position: relative;
+  top: 50px;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 15px 10px;
+  overflow-x: scroll;
+}
+.bottomSection .roundedDiv .CardsDiv .Card1,
+.bottomSection .roundedDiv .CardsDiv .Card2,
+.bottomSection .roundedDiv .CardsDiv .Card3 {
+  padding: 28px 25px 20px 28px;
+  background: #fff;
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.203);
+}
+.bottomSection .roundedDiv .CardsDiv .Card1 div div:nth-child(1) div h4,
+.bottomSection .roundedDiv .CardsDiv .Card1 div div:nth-child(1) div h5,
+.bottomSection .roundedDiv .CardsDiv .Card2 div div:nth-child(1) div h4,
+.bottomSection .roundedDiv .CardsDiv .Card2 div div:nth-child(1) div h5,
+.bottomSection .roundedDiv .CardsDiv .Card3 div div:nth-child(1) div h4,
+.bottomSection .roundedDiv .CardsDiv .Card3 div div:nth-child(1) div h5 {
+  font-size: 13px;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+}
+.bottomSection .roundedDiv .CardsDiv .Card1 div div:nth-child(1) div h5,
+.bottomSection .roundedDiv .CardsDiv .Card2 div div:nth-child(1) div h5,
+.bottomSection .roundedDiv .CardsDiv .Card3 div div:nth-child(1) div h5 {
+  margin-top: -4px;
+}
+.bottomSection .roundedDiv .CardsDiv .Card1 div div:nth-child(2),
+.bottomSection .roundedDiv .CardsDiv .Card2 div div:nth-child(2),
+.bottomSection .roundedDiv .CardsDiv .Card3 div div:nth-child(2) {
+  width: 100px;
+}
+.bottomSection .roundedDiv .CardsDiv .Card1 p,
+.bottomSection .roundedDiv .CardsDiv .Card2 p,
+.bottomSection .roundedDiv .CardsDiv .Card3 p {
+  font-size: 13px;
+}
+.bottomSection .roundedDiv .headingofDiv {
+  display: flex;
+  align-items: center;
+}
+.bottomSection .roundedDiv .headingofDiv img {
+  height: 64px;
+  width: 64px;
+  margin-right: 15px;
+}
+.bottomSection .roundedDiv .headingofDiv h3 {
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  font-size: 25px;
+}
+.bottomSection .roundedDiv button {
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.203);
+  position: absolute;
+  bottom: 60px;
+  right: -35px;
+  background: #fff;
+  padding: 20px 28px;
+  border-radius: 50%;
+}
+.bottomSection .brand {
+  padding-top: 163px;
+  padding-bottom: 189px;
+}
+
+footer {
+  background: #000;
+  padding: 300px 0 0 0;
+}
+footer p {
+  font-family: "Nunito Sans";
+  font-size: 18px;
+}
+footer p span {
+  padding-right: 10px;
+  position: relative;
+  top: 2px;
+}
+
+@media screen and (max-width: 1200px) {
+  nav img {
+    padding: 10px 0 20px 20px;
+  }
+  nav button {
+    margin: 15px 20px 20px 0;
+  }
+  .topSection div:nth-child(1) div:nth-child(1) {
+    padding-top: 5px;
+  }
+  .topSection div:nth-child(1) div:nth-child(1) h1 {
+    font-size: 30px;
+  }
+  .topSection div:nth-child(1) div:nth-child(1) p {
+    width: 410px;
+    font-size: 16px;
+  }
+  .topSection div:nth-child(1) div:nth-child(1) button {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+  .topSection div:nth-child(1) div:nth-child(2) {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .topSection div:nth-child(1) div:nth-child(2) img {
+    width: 400px;
+  }
+  .topSection div:nth-child(2) h2 {
+    font-size: 30px;
+  }
+  .topSection div:nth-child(3) h2 {
+    font-size: 30px;
+  }
+  .midSection {
+    padding: 0 50px;
+  }
+  .midSection div h2 {
+    font-size: 30px;
+  }
+  .midSection div div .odd-card p {
+    width: 500px;
+  }
+  .midSection div div .even-card p {
+    width: 360px;
+  }
+  .midSection div div div p {
+    font-size: 16px;
+  }
+  .midSection div div div button {
+    font-size: 15px;
+  }
+  .bottomSection h2 {
+    padding-top: 120px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 998px) {
+  .topSection div:nth-child(2) h2 {
+    padding-bottom: 20px;
+  }
+  .topSection div:nth-child(2) div {
+    margin-top: 40px;
+  }
+  .bottomSection .roundedDiv {
+    margin: 70px 0 200px 0;
+  }
+  .bottomSection .roundedDiv .headingofDiv h3 {
+    font-family: "Nunito Sans";
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .bottomSection .brand {
+    padding-top: 100px;
+    padding-bottom: 129px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .topSection div:nth-child(1) div:nth-child(1) {
+    padding-top: 5px;
+  }
+  .topSection div:nth-child(1) div:nth-child(1) h1 {
+    font-size: 22px;
+  }
+  .topSection div:nth-child(1) div:nth-child(1) p {
+    width: 320px;
+    font-size: 14px;
+  }
+  .topSection div:nth-child(1) div:nth-child(1) button {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  .topSection div:nth-child(1) div:nth-child(2) {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .topSection div:nth-child(1) div:nth-child(2) img {
+    width: 400px;
+  }
+  .topSection div:nth-child(2) h2 {
+    font-size: 22px;
+    margin-bottom: -40px;
+  }
+  .topSection div:nth-child(2) div div p {
+    font-size: 14px;
+  }
+  .topSection div:nth-child(3) h2 {
+    font-size: 22px;
+  }
+  .topSection div:nth-child(3) div div p {
+    font-size: 14px;
+  }
+  .midSection {
+    padding: 22px;
+  }
+  .midSection div h2 {
+    font-size: 21px;
+  }
+  .midSection div div .odd-card {
+    align-self: center;
+  }
+  .midSection div div .odd-card div h3 {
+    font-size: 19px;
+    margin-left: 10px;
+  }
+  .midSection div div .odd-card p {
+    font-size: 14px;
+    width: 240px;
+  }
+  .midSection div div .odd-card button {
+    font-size: 12px;
+  }
+  .midSection div div .even-card {
+    align-self: center;
+  }
+  .midSection div div .even-card div h3 {
+    font-size: 19px;
+    margin-left: 10px;
+  }
+  .midSection div div .even-card p {
+    font-size: 14px;
+    width: 240px;
+  }
+  .midSection div div .even-card button {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .topSection div:nth-child(1) div:nth-child(2) {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .topSection div:nth-child(1) div:nth-child(2) img {
+    width: 300px;
+  }
+  .bottomSection h2 {
+    padding-top: 150px;
+    font-size: 22px;
+  }
+  .bottomSection .roundedDiv {
+    padding: 40px 10px 0 10px;
+  }
+  .bottomSection .roundedDiv .CardsDiv .Card1 div div:nth-child(2),
+  .bottomSection .roundedDiv .CardsDiv .Card2 div div:nth-child(2),
+  .bottomSection .roundedDiv .CardsDiv .Card3 div div:nth-child(2) {
+    width: 75px;
+  }
+  .bottomSection .roundedDiv .CardsDiv .Card1 p,
+  .bottomSection .roundedDiv .CardsDiv .Card2 p,
+  .bottomSection .roundedDiv .CardsDiv .Card3 p {
+    font-size: 13px;
+  }
+  .bottomSection div button {
+    display: none;
+  }
+}/*# sourceMappingURL=custom.css.map */
